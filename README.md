@@ -3,9 +3,9 @@ This KDE Plasma applet is a fork of https://github.com/Davide-sd/shutdown_or_swi
 
 Only supports KDE Plasma 6 (probably).
 
-*The code is a mess.*
-
 Please don't ask for support.
 
+![gh-media](https://github.com/user-attachments/assets/4956ec11-199a-477b-a50b-71e78bd0acf9)
+
 # Credits
-All credits to Kai Uwe Broulik and Davide Sandonà for the original work.
+All credit to Kai Uwe Broulik and Davide Sandonà for the original work.
