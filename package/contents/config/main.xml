@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+      http://www.kde.org/standards/kcfg/1.0/kcfg.xsd" >
+  <kcfgfile name=""/>
+
+  <group name="General">
+    <entry name="showFullName" type="Bool">
+      <default>false</default>
+    </entry>
+    <entry name="icon" type="String">
+        <default>plasma-symbolic</default>
+    </entry>
+    <entry name="showUser" type="Bool">
+        <default>true</default>
+    </entry>
+    <entry name="showSysInfo" type="Bool">
+        <default>true</default>
+    </entry>
+    <entry name="showSettings" type="Bool">
+        <default>true</default>
+    </entry>
+    <entry name="showReconfigure" type="Bool">
+        <default>true</default>
+    </entry>
+    <entry name="showLock" type="Bool">
+        <default>true</default>
+    </entry>
+    <entry name="showLogOut" type="Bool">
+        <default>true</default>
+    </entry>
+    <entry name="showSwitchUser" type="Bool">
+        <default>false</default>
+    </entry>
+    <entry name="showSleep" type="Bool">
+        <default>true</default>
+    </entry>
+    <entry name="showHibernate" type="Bool">
+        <default>false</default>
+    </entry>
+    <entry name="showRestart" type="Bool">
+        <default>true</default>
+    </entry>
+    <entry name="showShutDown" type="Bool">
+        <default>true</default>
+    </entry>
+  </group>
+
+</kcfg>

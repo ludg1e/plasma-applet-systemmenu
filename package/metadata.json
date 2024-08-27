@@ -1,0 +1,29 @@
+{
+    "KPackageStructure": "Plasma/Applet",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "kde@privat.broulik.de",
+                "Name": "Kai Uwe Broulik"
+            },
+            {
+                "Email": "sandona.davide@gmail.com",
+                "Name": "Davide Sandona"
+            },
+            {
+                "Name": "Ludgie"
+            }
+        ],
+        "Category": "Application Launchers",
+        "Description": "Quickly access system options",
+        "Icon": "systemsettings",
+        "Id": "net.ludgie.systemmenu",
+        "License": "GPL-2.0+",
+        "Name": "System Menu",
+        "ServiceTypes": [
+            "Plasma/Applet"
+        ],
+        "Version": "1.0.0"
+    },
+    "X-Plasma-API-Minimum-Version": "6.0"
+}
