@@ -90,7 +90,7 @@ PlasmoidItem {
         Layout.maximumHeight: Screen.height / 2
 
         Sessions.SessionManagement {
-            id: sm
+            id: sessionManagement
         }
 
         Sessions.SessionsModel {
@@ -168,16 +168,16 @@ PlasmoidItem {
                 id: lockButton
                 text: ("@action", "Lock")
                 icon.name: "system-lock-screen"
-                visible: sm.canLock && showLock
-                onClicked: sm.lock()
+                visible: sessionManagement.canLock && showLock
+                onClicked: sessionManagement.lock()
             }
 
             ActionListDelegate {
                 id: logOutButton
                 text: ("@action", "Log Out")
                 icon.name: "system-log-out"
-                visible: sm.canLogout && showLogOut
-                onClicked: sm.requestLogout(1)
+                visible: sessionManagement.canLogout && showLogOut
+                onClicked: sessionManagement.requestLogout(1)
             }
 
             ActionListDelegate {
@@ -197,32 +197,32 @@ PlasmoidItem {
                 id: sleepButton
                 text: ("@action", "Sleep")
                 icon.name: "system-suspend"
-                visible: sm.canSuspend && showSleep
-                onClicked: sm.suspend()
+                visible: sessionManagement.canSuspend && showSleep
+                onClicked: sessionManagement.suspend()
             }
 
             ActionListDelegate {
                 id: hibernateButton
                 text: ("@action", "Hibernate")
                 icon.name: "system-suspend-hibernate"
-                visible: sm.canHibernate && showHibernate
-                onClicked: sm.suspendThenHibernate()
+                visible: sessionManagement.canHybridSuspend && showHibernate
+                onClicked: sessionManagement.hybridSuspend()
             }
 
             ActionListDelegate {
                 id: restartButton
                 text: ("@action", "Restart")
                 icon.name: "system-reboot"
-                visible: sm.canReboot && showRestart
-                onClicked: sm.requestReboot(1)
+                visible: sessionManagement.canReboot && showRestart
+                onClicked: sessionManagement.requestReboot(1)
             }
 
             ActionListDelegate {
                 id: shutDownButton
                 text: ("@action", "Shut Down")
                 icon.name: "system-shutdown"
-                visible: sm.canShutdown && showShutDown
-                onClicked: sm.requestShutdown(1)
+                visible: sessionManagement.canShutdown && showShutDown
+                onClicked: sessionManagement.requestShutdown(1)
             }
         }
 
