@@ -1,5 +1,5 @@
 /*
- *  SPDX-FileCopyrightText: 2024 Ludgie
+ *  SPDX-FileCopyrightText: 2024 Ludgie <ludg1e@hotmail.com>
  *  SPDX-FileCopyrightText: 2024 Davide Sandonà <sandona.davide@gmail.com>
  *  SPDX-FileCopyrightText: 2015 Kai Uwe Broulik <kde@privat.broulik.de>
  *

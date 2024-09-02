@@ -1,5 +1,5 @@
 /*
- *  SPDX-FileCopyrightText: 2024 Ludgie
+ *  SPDX-FileCopyrightText: 2024 Ludgie <ludg1e@hotmail.com>
  *  SPDX-FileCopyrightText: 2022 ivan (@ratijas) tkachenko <me@ratijas.tk>
  *
  *  SPDX-License-Identifier: GPL-2.0-or-later
